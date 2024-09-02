@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+    .sign_in__box{
+        font-size: 1.4rem;
+    }
+    .user_information input::placeholder {
+        font-size: 1.4rem;
+    }
+    .second_footer__links, .thirth_footer__links, .forth_footer__links{
+        width: 30%;
+        
+    }
+}
+
+@media (max-width: 992px) {
+    .navigation{
+        justify-content: space-between;
+        font-size: 1.4rem;
+    }
+    .user_information input::placeholder {
+        font-size: 1.2rem;
+    }
+    .description__text p{
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 900px) {
+    .container{
+        width: 90%;
+        padding: 0 2rem;
+    }
+    .nav{
+        display: none;
+    }
+    .hamburger__icon{
+        display: inline-block;
+    }
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .sign_in__box{
+        display: none;
+    }
+    .user__single{
+        display: inline-block;
+        margin-left: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    .user_information{
+        height: fit-content;
+    }
+    .info__box{
+        width: 100%;
+    }
+    .user__info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .user__info input{
+        width: 100%;
+    }
+    .user_information input::placeholder {
+        font-size: 1.6rem;
+        opacity: 0.8;
+    }
+    .user__info label{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .telegram_links{
+        flex-direction: column;
+    }
+    .telegram_links--box{
+        width: 100%;
+    }
+    .contact_ways--box p, .contact_ways--box a{
+        font-size: 1.5rem;
+    }
+    .description__text p{
+        font-size: 1.2rem;
+    }
+    .links{
+        flex-direction: column;
+    }
+    .first_footer__links{
+        width: 100%;
+    }
+    .links__wrapper{
+        width: 100%;
+       justify-content: space-between;
+       font-size: 1.4rem;
+    }
+    .second_footer__links, .thirth_footer__links, .forth_footer__links{
+        width: 30%;
+        
+    }
+    
+}
+@media (max-width: 576px) {
+    .heading__title{
+        font-size: 3rem;
+    }
+    .contact_ways{
+        width: 100%;
+    }
+    .contact_ways--box p, .contact_ways--box a{
+        text-wrap: nowrap;
+        overflow-x: hidden;
+        font-size: 1.6rem;
+    }
+    .contact_way{
+        height: fit-content;
+    }
+    .description{
+        flex-direction: column;
+        max-height: fit-content;
+    }
+    .links a, .links h4{
+        font-size: 1.4rem;
+        text-wrap: wrap;
+    }
+    .media__links{
+        display: flex;
+        justify-content: center;
+    }
+    .links__wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .copy_right{
+        flex-direction: column;
+    }
+
+}
